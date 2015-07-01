@@ -15,6 +15,13 @@
 	 .container-fluid {
 	 	margin: 20px 20px 20px 30%;
  	}
+
+ 	nav {
+ 		position: absolute;
+ 		top: 30px;
+ 		right: 10px;
+	}
+
 }
 
 @media screen and (max-width: 992px) {
@@ -52,24 +59,25 @@ a:hover, input:focus {
 /*
  * Nav Formatting
  */
- nav ul {
- 	padding: 0px;
- 	margin: 0px;
- }
 
- nav li {
- 	list-style-type: none;
- 	display: inline-block;
- 	margin-right: 1em;
- }
+nav ul {
+	padding: 0px;
+	margin: 0px;
+}
 
- nav a:link, nav a:visited {
- 	color: #55E;
- }
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 1em;
+}
 
- nav a:hover, input:focus {
- 	color: #00E;
- }
+nav a:link, nav a:visited {
+	color: #55E;
+}
+
+nav a:hover, input:focus {
+	color: #00E;
+}
 
 /*
  * Headings
