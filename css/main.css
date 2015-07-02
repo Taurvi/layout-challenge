@@ -7,12 +7,16 @@
 
 /*
  * Bootstrap: Conditions for if the page is larger than Medium (992px)
+ *
+ * Found an alternative method for making full sized background: https://css-tricks.com/perfect-full-page-background-image/
  */
 @media screen and (min-width: 992px) {
 	body {
-		background-image: url("../img/background.jpg");
+		background: url("../img/background.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
 		background-size: cover;
-		background-repeat: no-repeat;
 		font-size: 18px;
 	}
 
