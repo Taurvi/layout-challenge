@@ -4,6 +4,10 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
+
+/*
+ * Bootstrap: Conditions for if the page is larger than Medium (992px)
+ */
 @media screen and (min-width: 992px) {
 	body {
 		background-image: url("../img/background.jpg");
@@ -18,12 +22,15 @@
 
  	nav {
  		position: absolute;
- 		top: 30px;
+ 		top: 10px;
  		right: 10px;
 	}
 
 }
 
+/*
+ * Bootstrap: Conditions for if the page is smaller than Medium (992px)
+ */
 @media screen and (max-width: 992px) {
 	body {
 		font-size: 16px;
@@ -54,29 +61,6 @@ a:link, a:visited {
 
 a:hover, input:focus {
 	color: #0000EE;
-}
-
-/*
- * Nav Formatting
- */
-
-nav ul {
-	padding: 0px;
-	margin: 0px;
-}
-
-nav li {
-	list-style-type: none;
-	display: inline-block;
-	margin-right: 1em;
-}
-
-nav a:link, nav a:visited {
-	color: #55E;
-}
-
-nav a:hover, input:focus {
-	color: #00E;
 }
 
 /*
@@ -127,6 +111,7 @@ h3 {
  	background-color: #FA5A0F;
  	border-bottom: solid 5px #EA4A00;
  	color: #FFFFFF;
+ 	position: relative;
  }
 
  #tagline {
@@ -135,6 +120,28 @@ h3 {
  	margin: 0;
  }
 
+/*
+ * Nav Formatting
+ */
+
+nav ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 1em;
+}
+
+nav a:link, nav a:visited {
+	color: #55E;
+}
+
+nav a:hover, input:focus {
+	color: #00E;
+}
 
 /*
  * Menu Section
